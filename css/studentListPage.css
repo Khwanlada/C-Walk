@@ -16,7 +16,6 @@
     height: 225px;
     border-radius: 16px;
 }
-
 .row {
     justify-content: center;
 }
@@ -27,7 +26,6 @@
     box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
     transition: all 0.3s ease;
 }
-
 .card {
     box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
     transition: all 0.3s ease;
@@ -94,4 +92,15 @@
 
 .ctaM:active {
     transform: scale(0.96);
+}
+/* -------About Group--------- .*/
+
+.a {
+    color: #8b62bf;
+    text-decoration: blink;
+}
+
+.a:hover {
+    color: #ff6723;
+    text-decoration: blink;
 }
