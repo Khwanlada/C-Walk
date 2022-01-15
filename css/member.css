@@ -70,4 +70,12 @@
     align-items: center;
     backdrop-filter: blur(10px);
 }
+.a {
+    color: #8b62bf;
+    text-decoration: blink;
+}
 
+.a:hover {
+    color: #ff6723;
+    text-decoration: blink;
+} 
