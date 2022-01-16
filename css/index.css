@@ -1,0 +1,82 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+a{
+    color: white;
+}
+
+  .jumbotron {
+    /* font-family: 'Montserrat', sans-serif; */
+    opacity: 0.95;
+    padding: 150px 0;
+    background: url(/assets/bgin.jpg) center center;
+    margin-bottom: 0rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+    -webkit-background-size: cover;
+    background-size: cover;
+    border-radius: 0rem;
+    -webkit-background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+  
+  
+  #text{
+    background-color: #bca2e7;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  
+  .jumbotron h1 {
+    font-size: 90px;
+    margin-bottom: 0;
+    margin-top: 100px;
+  }
+  
+  .jumbotron p {
+    font-family: serif;
+    font-size: 50px;
+    font-style: italic;
+    margin: 0 0 30px;
+  }
+  
+  .button {
+    display: inline-block;
+    border: 2px solid #bca2e7;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 8px;
+    /* border-radius: 50px; */
+  }
