@@ -37,6 +37,9 @@ a{
     width: 100vw;
     height: 100vh;
   }
+  .jumbotron:hover{
+    opacity: 0.8;
+}
 
   .middle {
     transition: .5s ease;
@@ -47,6 +50,9 @@ a{
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     
+  }
+  .jumbotron:hover .middle {
+    opacity: 1;
   }
   
   
