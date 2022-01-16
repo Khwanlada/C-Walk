@@ -1,5 +1,5 @@
 .pic1 {
-    background-image: url(/assets/aing.png);
+    background-image: url(aing.png);
     opacity: 0.95;
     background-position: center center;
     background-size: cover;
@@ -8,7 +8,7 @@
     border-radius: 16px;
 }
 .pic2 {
-    background-image: url(/assets/yee.jpg);
+    background-image: url(yee.jpg);
     opacity: 0.95;
     background-position: center center;
     background-size: cover;
