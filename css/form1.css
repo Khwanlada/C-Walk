@@ -1,0 +1,354 @@
+.pic1 {
+    background-image: url(/assets/aing.png);
+    opacity: 0.95;
+    background-position: center center;
+    background-size: cover;
+    width: -webkit-fill-available;
+    height: 225px;
+    border-radius: 16px;
+}
+.pic2 {
+    background-image: url(/assets/yee.jpg);
+    opacity: 0.95;
+    background-position: center center;
+    background-size: cover;
+    width: -webkit-fill-available;
+    height: 225px;
+    border-radius: 16px;
+}
+
+.box1 {
+    background-color: #353535;
+    position: relative;
+    width: 500px;
+    height: 200px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.container .card1 {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+/* --------- */
+.column1 {
+    float: left;
+
+  }
+.column2 {
+    float: right;
+ 
+  }
+/* -------------- */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .d-flex {
+    align-items: center;
+    display: flex!important;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.whole{
+    text-align: left;
+    color: rgb(0, 0, 0);
+   background-color: #efefef;
+   border-radius: 16px;
+   padding: 20px;
+}
+
+/* -------About Group--------- .*/
+
+.a {
+    color: #8b62bf;
+    text-decoration: blink;
+}
+
+.a:hover {
+    color: #ff6723;
+    text-decoration: blink;
+}
+
+/* -------------  */
+
+.row {
+    justify-content: center;
+}
+
+.card-body {
+    background-color: #353535;
+    border-radius: 16px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: all 0.3s ease;
+}
+
+.card {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+
+/* css box in form file */
+
+.ibox-content {
+    background-color: #F8F9FA;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0px;
+}
+
+
+/* ------------------- */
+
+.subject {
+    display: none;
+}
+
+
+/* css in member file */
+
+.member {
+    text-align: center;
+}
+
+.topic {
+    /* background-color: black; */
+    text-align: center;
+}
+
+
+/* ----------- */
+
+.box {
+    color: #fff;
+    padding: 20px;
+    display: none;
+    margin-top: 20px;
+}
+/* --------year----- */
+/* one */
+.one_2019 {
+    border-radius: 16px;
+    background: #efefef;
+}
+.one_2020 {
+    border-radius: 16px;
+    background: #efefef;
+}
+.one_2021 {
+    border-radius: 16px;
+    background: #efefef;
+}
+
+/* two */
+.two_2019 {
+    border-radius: 16px;
+    background: #efefef;
+}
+.two_2020 {
+    border-radius: 16px;
+    background: #efefef;
+}
+.two_2021 {
+    border-radius: 16px;
+    background: #efefef;
+}
+/* ------------------ */
+
+.bn3637 {
+    border-width: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem 1rem;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    backface-visibility: hidden;
+    border: 0.1rem solid transparent;
+    border-radius: 1rem;
+}
+
+.colP{
+    text-align: center;
+}
+
+.bn38 {
+    color: #bca2e7;
+    border-color: #bca2e7;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.bn38:hover {
+    color: #F8F9FA;
+    background-color: #bca2e7;
+}
+
+imgP {
+    vertical-align: middle;
+}
+.tableP {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+tableP {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+
+/* ---Back PAGE--- */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+    text-decoration: blink;
+}
+
+.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: #bca2e7;
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+}
+
+.cta span {
+    color: #000;
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+    width: 100%;
+    background: #c9b6e9;
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active {
+    transform: scale(0.96);
+}
+
+ /* next page to member */
+.ctaM {
+    position: relative;
+    margin: auto;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+    text-decoration: blink;
+}
+
+.ctaM:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: #fc9e01;
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+}
+
+.ctaM span {
+    color: #000;
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.ctaM svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+
+.ctaM:hover:before {
+    width: 100%;
+    background: #ffb642;
+}
+
+.ctaM:hover svg {
+    transform: translateX(0);
+}
+
+.ctaM:active {
+    transform: scale(0.96);
+}
